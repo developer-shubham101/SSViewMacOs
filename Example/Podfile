@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSViewMacOs_Example' do
+  pod 'SSViewMacOs', :path => '../'
+
+  target 'SSViewMacOs_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
