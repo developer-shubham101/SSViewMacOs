@@ -29,11 +29,11 @@
 /* Begin PBXFileReference section */
 		210DA1A63BBA2D358BEADD0C /* Pods_SSViewMacOs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSViewMacOs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3080B18EEB16E48FC84C3D44 /* Pods_SSViewMacOs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSViewMacOs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CEE58E4234F4EC4AC1E651A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		62678477C978FAD43290471D /* SSViewMacOs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSViewMacOs.podspec; path = ../SSViewMacOs.podspec; sourceTree = "<group>"; };
+		3CEE58E4234F4EC4AC1E651A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		62678477C978FAD43290471D /* SSViewMacOs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSViewMacOs.podspec; path = ../SSViewMacOs.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7BD91D2F51A8F41324FED74C /* Pods-SSViewMacOs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSViewMacOs_Example.release.xcconfig"; path = "Target Support Files/Pods-SSViewMacOs_Example/Pods-SSViewMacOs_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D0E3B4420ADE59B1A59A8AC /* Pods-SSViewMacOs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSViewMacOs_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSViewMacOs_Tests/Pods-SSViewMacOs_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B501199FAFADCBE09DED2932 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B501199FAFADCBE09DED2932 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B6274004694F10B0DB9A1F21 /* Pods-SSViewMacOs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSViewMacOs_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSViewMacOs_Tests/Pods-SSViewMacOs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF3058055DC93C1C12DEA486 /* Pods-SSViewMacOs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSViewMacOs_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSViewMacOs_Example/Pods-SSViewMacOs_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* SSViewMacOs_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSViewMacOs_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +76,6 @@
 				B6274004694F10B0DB9A1F21 /* Pods-SSViewMacOs_Tests.debug.xcconfig */,
 				9D0E3B4420ADE59B1A59A8AC /* Pods-SSViewMacOs_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

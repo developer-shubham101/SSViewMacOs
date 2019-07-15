@@ -1,0 +1,16 @@
+PODS:
+  - SSViewMacOs (0.1.0)
+
+DEPENDENCIES:
+  - SSViewMacOs (from `../`)
+
+EXTERNAL SOURCES:
+  SSViewMacOs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSViewMacOs: 75ceb869eee3c991ad0b8a691b57ac7f7c22d90f
+
+PODFILE CHECKSUM: 99f136bf9df6b3faea5938e85ac727947dc929c2
+
+COCOAPODS: 1.7.3

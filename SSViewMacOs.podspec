@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SSViewMacOs'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SSViewMacOs.'
+  s.summary          = 'Update your Cocoa\'s View'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Add SSComboBox,
+You can use SSComboBox with simple string or custom object.
                        DESC
 
   s.homepage         = 'https://github.com/shubhamsharma95/SSViewMacOs'
@@ -27,7 +28,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'shubhamsharma95' => 'shubham.sharma@arkasoftwares.com' }
   s.source           = { :git => 'https://github.com/shubhamsharma95/SSViewMacOs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '4.0'
   s.platform = :osx
   s.osx.deployment_target = "10.10"
 
@@ -38,6 +39,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'Cocoa'
+    s.frameworks = 'Cocoa'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

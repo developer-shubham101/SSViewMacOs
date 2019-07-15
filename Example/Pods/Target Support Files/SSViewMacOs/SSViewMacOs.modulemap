@@ -1,0 +1,6 @@
+framework module SSViewMacOs {
+  umbrella header "SSViewMacOs-umbrella.h"
+
+  export *
+  module * { export * }
+}
